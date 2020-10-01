@@ -44,9 +44,9 @@ module.exports = function transform(arr) {
   };
   
 // console.log(arr);
-console.log(resultArray);
+//console.log(resultArray);
   filteredArray = resultArray.filter(function () { return true });
-  console.log(resultArray);
+  //console.log(resultArray);
   filteredArray = resultArray;
   filteredArray = resultArray.filter(function( element ) {
     // console.log(typeof element);
