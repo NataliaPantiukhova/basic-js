@@ -13,10 +13,6 @@ module.exports = function repeater(str, options) {
     addition = 'null';
   }
 
-  console.log(str);
-  console.log(options);
-  console.log(repeatTimes);
-  console.log(additionRepeatTimes);
   let additionString = addition,
       resultStr = str;
   for (let i = 1; i < additionRepeatTimes; i++){
@@ -27,7 +23,6 @@ module.exports = function repeater(str, options) {
   };  
   resultStr = `${resultStr}${additionString}`;
 
-  console.log(resultStr);
   return resultStr;
 };
 
